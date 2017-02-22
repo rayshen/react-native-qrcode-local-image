@@ -10,7 +10,7 @@
 #import "RCTQRCodeLocalImage.h"
 #import "RCTLog.h"
 #import "RCTUtils.h"
-
+#import <UIKit/UIKit.h>
 @implementation RCTQRCodeLocalImage
 RCT_EXPORT_MODULE()
 
@@ -20,7 +20,8 @@ RCT_EXPORT_METHOD(decode:(NSString *)path callback:(RCTResponseSenderBlock)callb
     NSString* qrcodeImage = path;
     NSLog(@"qrcodeImage: %@", qrcodeImage);
     
-    UIImage *srcImage = [[UIImage alloc] initWithContentsOfFile:qrcodeImage];
+    NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:path]];
+    UIImage *srcImage = [UIImage imageWithData:data];
     if (nil==srcImage){
         NSLog(@"PROBLEM! IMAGE NOT LOADED\n");
         callback(@[RCTMakeError(@"IMAGE NOT LOADED!", nil, nil)]);
@@ -29,7 +30,7 @@ RCT_EXPORT_METHOD(decode:(NSString *)path callback:(RCTResponseSenderBlock)callb
         NSLog(@"OK - IMAGE LOADED\n");
     // [srcImage release];
     
-    NSDictionary *detectorOptions = @{@"CIDetectorAccuracy": @"CIDetectorAccuracyHigh"};
+    NSDictionary *detectorOptions = @{CIDetectorAccuracy: CIDetectorAccuracyHigh};
     CIDetector *detector = [CIDetector detectorOfType:CIDetectorTypeQRCode context:nil options:detectorOptions];
     CIImage *image = [CIImage imageWithCGImage:srcImage.CGImage];
     NSArray *features = [detector featuresInImage:image];
@@ -53,4 +54,5 @@ RCT_EXPORT_METHOD(decode:(NSString *)path callback:(RCTResponseSenderBlock)callb
         return;
     }
 }
+
 @end

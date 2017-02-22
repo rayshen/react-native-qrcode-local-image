@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/shenzw/moxie/projects/魔蝎数据APP/moxieSdkApp/node_modules/@remobile/react-native-qrcode-local-image/android/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/shenzw/moxie/projects/魔蝎数据APP/moxieSdkApp/node_modules/@remobile/react-native-qrcode-local-image/android/src/debug/shaders"/></dataSet></merger>

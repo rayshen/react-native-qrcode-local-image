@@ -1,29 +1,98 @@
 {
+  "_args": [
+    [
+      {
+        "raw": "@remobile/react-native-qrcode-local-image",
+        "scope": "@remobile",
+        "escapedName": "@remobile%2freact-native-qrcode-local-image",
+        "name": "@remobile/react-native-qrcode-local-image",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/shenzw/moxie/projects/魔蝎数据APP/moxieSdkApp"
+    ]
+  ],
+  "_cnpm_publish_time": 1476172563146,
+  "_from": "@remobile/react-native-qrcode-local-image@latest",
+  "_id": "@remobile/react-native-qrcode-local-image@1.0.1",
+  "_inCache": true,
+  "_location": "/@remobile/react-native-qrcode-local-image",
+  "_nodeVersion": "6.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-qrcode-local-image-1.0.1.tgz_1476172561311_0.6019232722464949"
+  },
+  "_npmUser": {
+    "name": "remobile",
+    "email": "42550564@qq.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@remobile/react-native-qrcode-local-image",
+    "scope": "@remobile",
+    "escapedName": "@remobile%2freact-native-qrcode-local-image",
     "name": "@remobile/react-native-qrcode-local-image",
-    "version": "1.0.1",
-    "qrcode-local-imagecription": "A local qrcode image parse for react-native",
-    "main": "index.js",
-    "author": {
-        "name": "YunJiang.Fang",
-        "email": "42550564@qq.com"
-    },
-    "license": "MIT",
-    "keywords": [
-        "react-native",
-        "react-component",
-        "ios",
-        "android",
-        "qrcode",
-        "local-image",
-        "remobile",
-        "mobile"
-    ],
-    "homepage": "https://github.com/remobile/react-native-qrcode-local-image",
-    "bugs": {
-        "url": "https://github.com/remobile/react-native-qrcode-local-image/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/remobile/react-native-qrcode-local-image.git"
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/@remobile/react-native-qrcode-local-image/download/@remobile/react-native-qrcode-local-image-1.0.1.tgz",
+  "_shasum": "58b627117b7559b7f0ca71556d30b10a09599763",
+  "_shrinkwrap": null,
+  "_spec": "@remobile/react-native-qrcode-local-image",
+  "_where": "/Users/shenzw/moxie/projects/魔蝎数据APP/moxieSdkApp",
+  "author": {
+    "name": "YunJiang.Fang",
+    "email": "42550564@qq.com"
+  },
+  "bugs": {
+    "url": "https://github.com/remobile/react-native-qrcode-local-image/issues"
+  },
+  "dependencies": {},
+  "description": "A local qrcode image parse for react-native, support for ios and android",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "58b627117b7559b7f0ca71556d30b10a09599763",
+    "size": 6514,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/@remobile/react-native-qrcode-local-image/download/@remobile/react-native-qrcode-local-image-1.0.1.tgz"
+  },
+  "gitHead": "911bfada913dfa54ca58b677793bcae4e896f187",
+  "homepage": "https://github.com/remobile/react-native-qrcode-local-image",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "qrcode",
+    "local-image",
+    "remobile",
+    "mobile"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "remobile",
+      "email": "42550564@qq.com"
     }
+  ],
+  "name": "@remobile/react-native-qrcode-local-image",
+  "optionalDependencies": {},
+  "publish_time": 1476172563146,
+  "qrcode-local-imagecription": "A local qrcode image parse for react-native",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/remobile/react-native-qrcode-local-image.git"
+  },
+  "scripts": {},
+  "version": "1.0.1"
 }
